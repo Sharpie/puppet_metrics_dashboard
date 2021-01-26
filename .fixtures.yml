@@ -15,4 +15,7 @@ fixtures:
     facts: https://github.com/puppetlabs/puppetlabs-facts.git
     puppet_agent: https://github.com/puppetlabs/puppetlabs-puppet_agent.git
     provision: https://github.com/puppetlabs/provision.git
-    puppet_metrics_collector: https://github.com/puppetlabs/puppetlabs-puppet_metrics_collector.git
+    # puppet_metrics_collector: https://github.com/puppetlabs/puppetlabs-puppet_metrics_collector.git
+    puppet_metrics_collector:
+      repo: https://github.com/sharpie/puppetlabs-puppet_metrics_collector
+      branch: 'SUP-2195-add-postgres-tagging'
